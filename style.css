@@ -1,0 +1,348 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+    body {
+        background-color: #121212;
+    }
+
+    p {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.1rem;
+    }
+
+    .review {
+        font-weight: 300;
+    }
+    .reviewer {
+        text-align: right;
+        font-style: italic;
+    }
+
+    #simple-list-example {
+        font-family: 'Righteous', cursive;
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 700;
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .review-carousel {
+        min-height: 300px;
+    }
+
+/*image from https://www.vecteezy.com/photo/8867754-dark-green-wall-halloween-background-concept-scary-background-horror-concrete-cement-texture-for-background by Vecteezy*/
+    #book-cards .card {
+        background-color: transparent;
+        color: white;
+    }
+
+    #causes-card .card {
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+
+    #book-cards img {
+        max-width: 250px;
+        margin: auto;
+    }
+
+    #book-cards .card-body {
+        max-width: 325px;
+        margin: auto;
+    }
+
+    #thgs-section {
+        background-image: url(images/dark-green-bg.jpeg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+        background-size: cover;
+        background-color: rgba(0,0,0,0.7);
+        background-blend-mode: darken;
+        padding:40px;
+        margin: auto;
+    }
+
+    #bosas .card {
+        max width: 750px;
+    }
+
+    #bosas .card-body {
+        max-width: 750px;
+        margin-left: 25px;
+    }
+
+    #causes, #purchase {
+        margin-top: 50px;
+    }
+
+    #reviews {
+        margin-top: 25px;
+    }
+
+    #thg-page {
+        background-image: url(images/katniss-bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+        background-size: cover;
+        background-color: rgba(0,0,0,0.4);
+        background-blend-mode: darken;
+        padding:40px;
+        margin: auto;
+    }
+
+    .navbar {
+        background-color: #121212;
+    }
+    
+    .navbar img {
+        max-height: 65px;
+    }
+
+    .nav-link:link {
+        font-family: 'Righteous', cursive;
+        font-size: 1.4rem;
+        padding: 10px;
+        color: lightgray;
+    }
+    .nav-link:visited {
+        font-family: 'Righteous', cursive;
+        font-size: 1.4rem;
+        padding: 10px;
+        color: lightgray;
+    }
+    .nav-link:hover {
+        font-family: 'Righteous', cursive;
+        font-size: 1.4rem;
+        padding: 10px;
+        color: lightgray;
+        text-decoration: underline;
+    }
+    .nav-link:active {
+        font-family: 'Righteous', cursive;
+        font-size: 1.4rem;
+        padding: 10px;
+        color: lightgray;
+    }
+
+/*gradient inspired by: https://codingartistweb.com/2020/01/gold-text-effect-css-text-effect/*/
+h2.gold {
+   font-family: 'Righteous', cursive;
+   letter-spacing: 5px;
+   font-size: 3rem;
+   font-weight: bold;
+   text-align: center;
+   background-image: linear-gradient(
+    to right,
+    #ae8625 0,
+    #d2ac47 22%, 
+    #edc967 45%,
+    #f7ef8a 50%,
+    #edc967 55%,
+    #d2ac47 78%,
+    #ae8625 100%
+    );
+   color:transparent;
+   -webkit-background-clip:text;
+   margin-bottom: 40px;
+}
+
+.bi-star-fill, .bi-star-half, .bi-star {
+    background-image: linear-gradient(
+    to right,
+    #ae8625 0,
+    #d2ac47 22%, 
+    #edc967 45%,
+    #f7ef8a 50%,
+    #edc967 55%,
+    #d2ac47 78%,
+    #ae8625 100%
+    );
+   color:transparent;
+   -webkit-background-clip:text;
+  
+}
+
+.hero-carousel {
+    margin-bottom: 40px;
+}
+
+#thgs-section .btn {
+    background-image: linear-gradient(
+    to right,
+    #ae8625 0,
+    #d2ac47 22%, 
+    #edc967 45%,
+    #f7ef8a 50%,
+    #edc967 55%,
+    #d2ac47 78%,
+    #ae8625 100%
+    );
+   color: #121212;
+   -webkit-background-clip:border-box;
+   border-none;
+   font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+#thgs-section .btn:hover {
+    background-image: linear-gradient(
+    to right,
+    #ae8625 0,
+    #d2ac47 22%, 
+    #edc967 45%,
+    #f7ef8a 50%,
+    #edc967 55%,
+    #d2ac47 78%,
+    #ae8625 100%
+    );
+   color: lightgray;
+   -webkit-background-clip:border-box;
+   border-none;
+   background-color: rgba(0,0,0,0.3);
+        background-blend-mode: darken;
+}
+
+.thg-btn {
+    background-image: linear-gradient(
+    to right,
+    #ae8625 0,
+    #d2ac47 22%, 
+    #edc967 45%,
+    #f7ef8a 50%,
+    #edc967 55%,
+    #d2ac47 78%,
+    #ae8625 100%
+    );
+   color: #121212;
+   font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+   -webkit-background-clip:border-box;
+   border-none;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.thg-btn:hover {
+    background-image: linear-gradient(
+    to right,
+    #ae8625 0,
+    #d2ac47 22%, 
+    #edc967 45%,
+    #f7ef8a 50%,
+    #edc967 55%,
+    #d2ac47 78%,
+    #ae8625 100%
+    );
+   color: lightgray;
+   -webkit-background-clip:border-box;
+   border-none;
+   background-color: rgba(0,0,0,0.3);
+        background-blend-mode: darken;
+}
+
+.simple-list-example-scrollspy a:link {
+    color: lightgray;
+    text-align: left;
+    text-decoration: none;
+}
+
+.simple-list-example-scrollspy a:hover {
+    color: lightgray;
+    text-align: left;
+    text-decoration: underline;
+}
+.simple-list-example-scrollspy a:active {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: #121212;
+    color:white;
+}
+.dropdown-item {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    background-color: #121212;
+    color: white;
+}
+
+/*Back to top button from Dr. Steven Anderson's website */
+    #back2Top {
+        width:50px; /* width of button */
+        height:55px; /* height of button */
+        line-height:55px;
+        overflow:hidden;
+        z-index:999;
+        display:none; /* initially not displayed */
+        cursor:pointer;
+        transform:rotate(270deg); /* turns right arrow 270 degrees */
+        position:fixed; /* fixed at bottom corner */
+        bottom:30px; /* distance from bottom */
+        right:45px; /* distance from right */
+        padding:0px; /* padding around arrow */
+        border: none;
+        border-radius: 7px;
+        background:rgba(49, 62, 80, 0.6); /* gray-ish background with transparency */
+        color:#eee; /* color of arrow */
+        text-align:center;
+        font-size:30px; /* size of the arrow */
+        text-decoration:none;
+    }
+    #back2Top:link {
+        background:rgba(49, 62, 80, 0.6);
+        color:#fff;
+    }
+    #back2Top:visited {
+        background:rgba(49, 62, 80, 0.6);
+        color:#fff;
+    }
+    #back2Top:hover {
+        background:rgba(49, 62, 80, 0.9);
+        color:#eee;
+    }
+    #back2Top:active {
+        background:rgba(49, 62, 80, 0.6);
+        color:#fff;
+    }
+/*end b2t section*/
+
+/*media query for reduced motion*/
+@media (prefers-reduced-motion: reduce) {
+    * { 
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+    background-attachment: scroll !important;
+    }
+}
+
+
+
+
+
+
+
+
